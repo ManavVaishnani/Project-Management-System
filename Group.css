@@ -1,0 +1,81 @@
+#add_g {
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border-radius: 15px;
+}
+
+#add_g:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+
+/*
+.Group {
+    cursor: pointer;
+    word-break: break-word;
+    position: relative;
+    display: inline-block;
+    /* Fix: Corrected display value */
+
+
+/* width: 250px;
+    background-color: #f0f0f0;
+    background-clip: border-box;
+    border: 0 solid transparent;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.Title_bar {
+    display: inline;
+} */
+
+.Group {
+    margin-top: 10px;
+    cursor: pointer;
+    word-break: break-word;
+    position: relative;
+    width: 250px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #f0f0f0;
+    background-clip: border-box;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.Title_bar {
+    display: flex;
+    align-items: center;
+}
+
+.Group_No {
+    margin-right: 10px;
+}
+
+.Group_No h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Title h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.Group_Member ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.Group_Member li {
+    margin-bottom: 5px;
+}
+
+.Group:hover {
+    background-color: grey;
+    color: white;
+}

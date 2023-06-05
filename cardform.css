@@ -1,0 +1,75 @@
+.modal {
+    position: fixed;
+    top: 100px;
+    left: 400px;
+    /* border: 1px solid black; */
+    /* border-radius: 10px; */
+    background-color: #f0f0f0;
+    padding: 0px 20px 20px 20px;
+    border: 2px solid;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+    display: grid;
+    text-align: center;
+}
+
+.modal-body{
+    padding: 10px;
+    margin-top: 100px;
+}
+
+.modal-header {
+    padding: 3px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+
+}
+
+.note-title{
+    padding-bottom: 10px;
+}
+.modal-header .modal-title {
+    font-size: 1.25rem;
+}
+
+.modal-header .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+input[type="text"]{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+textarea{
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+/* .modal-footer{
+    padding-left: 10px;
+} */
+
+.btn{
+    background-color: #B0DAFF; /* Green */
+    border: none;
+    border-radius: 7px;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
